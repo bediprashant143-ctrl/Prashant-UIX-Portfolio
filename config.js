@@ -50,9 +50,9 @@ const INSTAGRAM_IMAGES = [
   // ADD YOUR INSTAGRAM PHOTO URLS BELOW:
   // "https://example.com/photo1.jpg",
   // "https://example.com/photo2.jpg",
-  "",  // slot 1  ← replace "" with your URL
-  "",  // slot 2
-  "",  // slot 3
+  "https://www.instagram.com/prick.clicks/p/DYB2vbjgc1F/",  // slot 1  ← replace "" with your URL
+  "https://www.instagram.com/prick.clicks/p/DYmcuuFAcEn/",  // slot 2
+  "https://www.instagram.com/prick.clicks/p/DYZUfApibM3/",  // slot 3
   "",  // slot 4
   "",  // slot 5
   "",  // slot 6
