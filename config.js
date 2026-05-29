@@ -73,7 +73,7 @@ const PROJECT_IMAGES = {
   scryai:     "",   // ScryAI AI Product UX
   bhi:        "",   // Behavioural Healthcare App
   healthcare: "",   // Healthcare Web/Mobile App
-  university: "",   // Universities Management Platform
+  university: "Assets/education-cover.jpg",   // Universities Management Platform
   product:    "",   // Product Transition UI
   travel:     "",   // Travel Guide Mobile App
   pharmacy:   "",   // Medicines Reminder + e-Pharmacy
