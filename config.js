@@ -71,7 +71,7 @@ const INSTAGRAM_IMAGES = [
    ----------------------------------------- */
 const PROJECT_IMAGES = {
   scryai:     "assets/education-cover.jpg",   // ScryAI AI Product UX
-  bhi:        "",   // Behavioural Healthcare App
+  bhi:        "assets/zumlo-cover-image.webp",   // Behavioural Healthcare App
   healthcare: "",   // Healthcare Web/Mobile App
   university: "assets/education-cover.jpg",
   product:    "",   // Product Transition UI
