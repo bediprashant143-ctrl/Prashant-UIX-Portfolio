@@ -70,13 +70,13 @@ const INSTAGRAM_IMAGES = [
    → paste the direct image link here.
    ----------------------------------------- */
 const PROJECT_IMAGES = {
-  scryai:     "assets/education-cover.jpg",   // ScryAI AI Product UX
+  scryai:     "assets/healthcare_cover_image.webp",   // ScryAI AI Product UX
   bhi:        "assets/zumlo-cover-image.webp",   // Behavioural Healthcare App
-  healthcare: "",   // Healthcare Web/Mobile App
+  healthcare: "assets/healthcare_cover_image.webp",   // Healthcare Web/Mobile App
   university: "assets/education-cover.jpg",
-  product:    "",   // Product Transition UI
-  travel:     "",   // Travel Guide Mobile App
-  pharmacy:   "",   // Medicines Reminder + e-Pharmacy
+  product:    "assets/product-cover-image.webp",   // Product Transition UI
+  travel:     "assets/parking_cover_image.webp",   // Travel Guide Mobile App
+  pharmacy:   "assets/medicine-reminder-cover-image.webp",   // Medicines Reminder + e-Pharmacy
   rpm:        "",   // RPM Healthcare Mobile App
 };
 
