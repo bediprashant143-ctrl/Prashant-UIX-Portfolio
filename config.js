@@ -31,7 +31,7 @@ const INFO = {
      Option 3 — Any direct image URL ending in .jpg/.png/.webp
    Leave it as "" to show a placeholder silhouette instead.
    ----------------------------------------- */
-const PROFILE_PHOTO = "https://pps.services.adobe.com/api/profile/3D8D1E2F653D5AFE0A495EDA@AdobeID/image/8233e7a1-113f-44c3-aa9d-aaa2828c95a0/276";
+const PROFILE_PHOTO = "https://drive.google.com/file/d/1Szuq6RVo7GlKveTcJ7U6PRQSXjw-7dJE/view?usp=drivesdk";
 
 /* ---------- INSTAGRAM / PHOTOGRAPHY IMAGES ----------
    Paste your Instagram image URLs below — one per line.
