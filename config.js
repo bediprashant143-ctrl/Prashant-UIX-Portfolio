@@ -77,7 +77,7 @@ const PROJECT_IMAGES = {
   product:    "assets/product-cover-image.webp",   // Product Transition UI
   travel:     "assets/parking_cover_image.webp",   // Travel Guide Mobile App
   pharmacy:   "assets/medicine-reminder-cover-image.webp",   // Medicines Reminder + e-Pharmacy
-  rpm:        "",   // RPM Healthcare Mobile App
+  rpm:        "assets/rpm_cover_image.webp",   // RPM Healthcare Mobile App
 };
 
 /* ---------- STATS ---------- */
