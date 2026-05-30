@@ -31,7 +31,7 @@ const INFO = {
      Option 3 — Any direct image URL ending in .jpg/.png/.webp
    Leave it as "" to show a placeholder silhouette instead.
    ----------------------------------------- */
-const PROFILE_PHOTO = "https://drive.google.com/file/d/1Szuq6RVo7GlKveTcJ7U6PRQSXjw-7dJE/view";
+const PROFILE_PHOTO = "https://politics.princeton.edu/people";
 
 /* ---------- INSTAGRAM / PHOTOGRAPHY IMAGES ----------
    Paste your Instagram image URLs below — one per line.
