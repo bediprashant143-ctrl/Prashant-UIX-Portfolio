@@ -70,10 +70,10 @@ const INSTAGRAM_IMAGES = [
    → paste the direct image link here.
    ----------------------------------------- */
 const PROJECT_IMAGES = {
-  scryai:     "Assets/education-cover.jpg",   // ScryAI AI Product UX
+  scryai:     "assets/education-cover.jpg",   // ScryAI AI Product UX
   bhi:        "",   // Behavioural Healthcare App
   healthcare: "",   // Healthcare Web/Mobile App
-  university: "https://github.com/bediprashant143-ctrl/Prashant-UIX-Portfolio/blob/60e75aedd9f22a4c69e3b23bb926219579bacfa7/Assets/education-cover.jpg",
+  university: "assets/education-cover.jpg",
   product:    "",   // Product Transition UI
   travel:     "",   // Travel Guide Mobile App
   pharmacy:   "",   // Medicines Reminder + e-Pharmacy
