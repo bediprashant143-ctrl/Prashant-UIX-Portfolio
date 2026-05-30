@@ -70,9 +70,9 @@ const INSTAGRAM_IMAGES = [
    → paste the direct image link here.
    ----------------------------------------- */
 const PROJECT_IMAGES = {
-  scryai:     "assets/healthcare_cover_image.webp",   // ScryAI AI Product UX
+  healthcare:     "assets/healthcare_cover_image.webp",   // ScryAI AI Product UX
   bhi:        "assets/zumlo-cover-image.webp",   // Behavioural Healthcare App
-  healthcare: "assets/healthcare_cover_image.webp",   // Healthcare Web/Mobile App
+  dating: "assets/dating_cover_image.webp",   // Healthcare Web/Mobile App
   university: "assets/education-cover.jpg",
   product:    "assets/product-cover-image.webp",   // Product Transition UI
   travel:     "assets/parking_cover_image.webp",   // Travel Guide Mobile App
@@ -90,18 +90,17 @@ const STATS = [
 
 /* ---------- PROJECTS DATA ---------- */
 const PROJ = {
-  scryai:{
-    title:'ScryAI — <em>AI Product UX</em>',
+  healthcare:{
+    title:' — <em>AI Product UX</em>',
     bg:'radial-gradient(ellipse at 70% 30%,#2a1a5e 0%,#0c0515 100%)',
-    meta:[{l:'Year',v:'2025–Present'},{l:'Role',v:'Senior UIX Designer'},{l:'Company',v:'ScryAI, Gurugram'},{l:'Focus',v:'AI-powered UX'}],
-    body:`<p>At ScryAI I design the human layer on top of complex AI models — making powerful machine intelligence feel approachable and intuitive for business users who aren't data scientists.</p>
-    <h2>The <em>Challenge</em></h2>
-    <p>AI dashboards are notoriously dense. Users face confidence intervals, model outputs, and real-time data feeds all at once. My role is to apply progressive disclosure, clear hierarchy, and adaptive UI patterns that reveal complexity only when users need it.</p>
-    <div class="dmock pAI"><div class="mock" style="width:70%;max-width:500px"><div class="mh"><div class="md"></div><div class="md"></div><div class="md"></div></div><div class="mb" style="width:55%"></div><div class="mb a" style="width:38%"></div><div class="mch"><div class="mbv a" style="height:70%"></div><div class="mbv" style="height:45%"></div><div class="mbv a" style="height:88%"></div><div class="mbv" style="height:55%"></div><div class="mbv" style="height:72%"></div><div class="mbv a" style="height:65%"></div></div></div></div>
-    <h2>Design System <em>at Scale</em></h2>
-    <p>I'm establishing and maintaining a design system that ensures consistency, scalability, and accessibility across all of ScryAI's AI-powered product modules.</p>
-    <div class="dout-grid"><div class="dout"><div class="dout-num">AI</div><div class="dout-lbl">Adaptive, personalized UI patterns for AI outputs</div></div><div class="dout"><div class="dout-num">∞</div><div class="dout-lbl">Scalable design system across multiple AI product modules</div></div><div class="dout"><div class="dout-num">↑</div><div class="dout-lbl">UX lift through ongoing usability testing with real users</div></div></div>`
-  },
+    meta:[{l:'Year',v:'2025'},{l:'Role',v:'Senior UIX Designer'},{l:'Platform',v:'Web'},{l:'Focus',v:'AI-powered UX'}],
+    behanceUrl:'https://www.behance.net/gallery/202689359/Healthcare-WebMobile-Application',
+    body:`<p>A comprehensive healthcare platform covering appointment booking, remote patient monitoring (RPM), e-pharmacy, and medication management.</p>
+    <h2>One Platform, <em>Many Workflows</em></h2>
+    <p>Healthcare users are diverse — doctors, patients, caregivers, and pharmacists all use the same system with vastly different needs.</p>
+    <div class="dmock pHC"><div style="display:flex;gap:20px;flex-wrap:wrap;width:80%"><div class="mock" style="flex:1;min-width:140px"><div class="mh"><div class="md"></div><div class="md"></div><div class="md"></div></div><div class="mb" style="width:55%"></div><div class="mr"><div class="mbox a"></div><div class="mbox"></div></div></div><div class="mock" style="flex:1;min-width:140px"><div class="mh"><div class="md"></div><div class="md"></div><div class="md"></div></div><div class="mb a" style="width:48%"></div><div class="mr"><div class="mbox"></div><div class="mbox a"></div></div></div></div></div>
+    <div class="dout-grid"><div class="dout"><div class="dout-num">44</div><div class="dout-lbl">Appreciations — most appreciated project</div></div><div class="dout"><div class="dout-num">3</div><div class="dout-lbl">Core modules: Appointments, RPM, e-Pharmacy</div></div><div class="dout"><div class="dout-num">58</div><div class="dout-lbl">Behance views and counting</div></div></div>`
+    },
   bhi:{
     title:'Behavioural Healthcare — <em>Intelligent App</em>',
     bg:'radial-gradient(ellipse at 30% 70%,#1a3a55 0%,#040d1a 100%)',
@@ -113,16 +112,16 @@ const PROJ = {
     <div class="dmock pHC"><div style="display:flex;gap:20px;width:75%"><div class="mock" style="flex:1"><div class="mh"><div class="md"></div><div class="md"></div><div class="md"></div></div><div class="mb" style="width:60%"></div><div class="mb a" style="width:38%"></div><div class="mr"><div class="mbox a"></div><div class="mbox"></div><div class="mbox a"></div></div></div><div class="mock" style="flex:1"><div class="mh"><div class="md"></div><div class="md"></div><div class="md"></div></div><div class="mb a" style="width:45%"></div><div class="mr"><div class="mbox"></div><div class="mbox a"></div></div></div></div></div>
     <div class="dout-grid"><div class="dout"><div class="dout-num">33</div><div class="dout-lbl">Appreciations from the Behance design community</div></div><div class="dout"><div class="dout-num">1,313</div><div class="dout-lbl">Project views on Behance</div></div><div class="dout"><div class="dout-num">★</div><div class="dout-lbl">Featured in healthcare UX design category</div></div></div>`
   },
-  healthcare:{
-    title:'Healthcare <em>Web/Mobile App</em>',
+  dating:{
+    title:'Dating Mobile Application <em>Mobile App</em>',
     bg:'radial-gradient(ellipse at 40% 60%,#1a3a55 0%,#040d1a 100%)',
     meta:[{l:'Year',v:'2024'},{l:'Role',v:'Lead UIX Designer'},{l:'Platform',v:'Web + iOS + Android'},{l:'Behance',v:'44 appreciations'}],
-    behanceUrl:'https://www.behance.net/gallery/202689359/Healthcare-WebMobile-Application',
-    body:`<p>A comprehensive healthcare platform covering appointment booking, remote patient monitoring (RPM), e-pharmacy, and medication management.</p>
+    behanceUrl:'https://www.behance.net/gallery/183313631/A-colorful-and-beautiful-Dating-mobile-application',
+    body:`<p>A application that provides vibrant experience, customize profile, engage with communities, post stories and meet people who really match your preferences</p>
     <h2>One Platform, <em>Many Workflows</em></h2>
-    <p>Healthcare users are diverse — doctors, patients, caregivers, and pharmacists all use the same system with vastly different needs.</p>
+    <p>The Application which really care about protection of profiles, verified profiles and healthy communities where you can share your thoughts.</p>
     <div class="dmock pHC"><div style="display:flex;gap:20px;flex-wrap:wrap;width:80%"><div class="mock" style="flex:1;min-width:140px"><div class="mh"><div class="md"></div><div class="md"></div><div class="md"></div></div><div class="mb" style="width:55%"></div><div class="mr"><div class="mbox a"></div><div class="mbox"></div></div></div><div class="mock" style="flex:1;min-width:140px"><div class="mh"><div class="md"></div><div class="md"></div><div class="md"></div></div><div class="mb a" style="width:48%"></div><div class="mr"><div class="mbox"></div><div class="mbox a"></div></div></div></div></div>
-    <div class="dout-grid"><div class="dout"><div class="dout-num">44</div><div class="dout-lbl">Appreciations — most appreciated project</div></div><div class="dout"><div class="dout-num">3</div><div class="dout-lbl">Core modules: Appointments, RPM, e-Pharmacy</div></div><div class="dout"><div class="dout-num">58</div><div class="dout-lbl">Behance views and counting</div></div></div>`
+    <div class="dout-grid"><div class="dout"><div class="dout-num">44</div><div class="dout-lbl">Appreciations — most appreciated project</div></div><div class="dout"><div class="dout-num">3</div><div class="dout-lbl">Core modules: Profiles and Community</div></div><div class="dout"><div class="dout-num">58</div><div class="dout-lbl">Behance views and counting</div></div></div>`
   },
   university:{
     title:'Universities <em>Management Platform</em>',
