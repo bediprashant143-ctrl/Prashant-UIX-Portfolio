@@ -31,7 +31,7 @@ const INFO = {
      Option 3 — Any direct image URL ending in .jpg/.png/.webp
    Leave it as "" to show a placeholder silhouette instead.
    ----------------------------------------- */
-const PROFILE_PHOTO = "Assets/Monochrome Photocentric Handwritten Social Media Manager Bio Instagram Post - 1.png";
+const PROFILE_PHOTO = "assets/Monochrome Photocentric Handwritten Social Media Manager Bio Instagram Post - 1.png";
 
 /* ---------- INSTAGRAM / PHOTOGRAPHY IMAGES ----------
    Paste your Instagram image URLs below — one per line.
