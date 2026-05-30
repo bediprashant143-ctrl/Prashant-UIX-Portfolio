@@ -73,7 +73,7 @@ const PROJECT_IMAGES = {
   scryai:     "Assets/education-cover.jpg",   // ScryAI AI Product UX
   bhi:        "",   // Behavioural Healthcare App
   healthcare: "",   // Healthcare Web/Mobile App
-  university: "Assets/education-cover.jpg",   // Universities Management Platform
+  university: "Assets/education-cover.jpg",
   product:    "",   // Product Transition UI
   travel:     "",   // Travel Guide Mobile App
   pharmacy:   "",   // Medicines Reminder + e-Pharmacy
@@ -128,7 +128,7 @@ const PROJ = {
     title:'Universities <em>Management Platform</em>',
     bg:'radial-gradient(ellipse at 40% 60%,#0d3d26 0%,#020e08 100%)',
     meta:[{l:'Year',v:'2024'},{l:'Role',v:'UIX Designer'},{l:'Platform',v:'Web'},{l:'Domain',v:'EdTech / SaaS'}],
-    behanceUrl:'https://www.behance.net/gallery/201811393/Universities-management-web-Platform',
+    behanceUrl:'Assets/education-cover.jpg',
     body:`<p>A web-based platform for managing multiple universities — student records, faculty management, admission workflows, and institutional analytics.</p>
     <h2>Taming <em>Complex Information</em></h2>
     <p>University management involves deeply hierarchical data. The navigation scales from a single department to an entire university group.</p>
